@@ -4,15 +4,6 @@ type: docker
 name: default
 
 steps:
-  - name: build 3.11
-    image: plugins/docker
-    settings:
-      repo: registry.home.devmem.ru/alpine
-      registry: registry.home.devmem.ru
-      dockerfile: ./3.11-cron/Dockerfile
-      tags:
-        - 3.11-cron
-
   - name: build 3.13
     image: plugins/docker
     settings:

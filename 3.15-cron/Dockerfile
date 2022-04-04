@@ -1,5 +1,4 @@
-FROM alpine:3.11
-LABEL maintainer="Ilya Pavlov <piv@devmem.ru>"
+FROM alpine:3.15
 
 ENV S6_OVERLAY_RELEASE=v2.2.0.3
 

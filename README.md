@@ -4,5 +4,5 @@
 
 ## Тэги
 
+    git.devmem.ru/cr/alpine:3.15-cron
     registry.home.devmem.ru/alpine:3.13-cron
-    registry.home.devmem.ru/alpine:3.11-cron
